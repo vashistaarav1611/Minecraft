@@ -44,15 +44,15 @@ function mykeydown(e){
   console.log("p and shift");
   block_img_width = block_img_width+10;
   block_img_height = block_img_height+10;
-  document.getElementById("current-width").innerHTML= block_img_width;
-  document.getElementById("current-height").innerHTML= block_img_height;
+  document.getElementById("current-width").innerHTML= block_img_width;//see
+  document.getElementById("current-height").innerHTML= block_img_height;//see
  }
  if(e.shiftKey && keypressed == '77'){
     console.log("m and shift");
     block_img_width= block_img_width- 10;
     block_img_height= block_img_height-10;
-    document.getElementById("current-width").innerHTML= block_img_width;
-    document.getElementById("current-height").innerHTML= block_img_height;
+    document.getElementById("current-width").innerHTML= block_img_width;//see
+    document.getElementById("current-height").innerHTML= block_img_height;//see
     }
  if(keypressed=='38'){
     up();
