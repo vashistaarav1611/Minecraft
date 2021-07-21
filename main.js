@@ -51,7 +51,8 @@ function mykeydown(e){
     console.log("m and shift");
     block_img_width= block_img_width- 10;
     block_img_height= block_img_height-10;
-    document.getElementById()
+    document.getElementById("current-width").innerHTML= block_img_width;
+    document.getElementById("current-height").innerHTML= block_img_height;
     }
  if(keypressed=='38'){
     up();
